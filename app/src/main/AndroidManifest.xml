@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myserviceandroidkotlin">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyServiceAndroidKotlin">
         <service
-            android:name=".RandomNumberService"
+            android:name=".Musica"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".RandomNumberService"
+            android:enabled="true"
+            android:exported="true" />
 
         <activity
             android:name=".MainActivity"
