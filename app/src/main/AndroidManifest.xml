@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyServiceAndroidKotlin">
         <service
-            android:name=".Musica"
+            android:name=".ForegroundService"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".Musica"
+            android:enabled="true"
+            android:exported="true" />
         <service
             android:name=".RandomNumberService"
             android:enabled="true"

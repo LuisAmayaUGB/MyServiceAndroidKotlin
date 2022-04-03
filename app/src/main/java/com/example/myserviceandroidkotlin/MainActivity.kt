@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
 //        val serviceClass = RandomNumberService::class.java
         val serviceClass = Musica::class.java
 
-
         // Initialize a new Intent instance
         val intent = Intent(applicationContext, serviceClass)
 
